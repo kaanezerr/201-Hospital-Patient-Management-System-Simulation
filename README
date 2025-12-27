@@ -1,0 +1,23 @@
+# Hospital Management System (CENG 201 Project)
+
+This project is a hospital simulation created for the **Data Structures and Algorithms** course. The main goal is to manage patients, treatment requests, and discharge records using manual data structures (Linked List, Stack, Queue) instead of Java's built-in libraries.
+
+## Project Features
+
+* **Patient List (Linked List):** Stores patient details. I used a singly linked list to add, remove, and find patients.
+* **Treatment Queue (FIFO):** Manages the waiting lines. Patients are treated in the order they arrive (First-In-First-Out).
+* **Discharge History (Stack):** Keeps a log of discharged patients using Last-In-First-Out (LIFO) logic, so we can see the most recently discharged patient first.
+* **Priority System:** The system uses two separate queues: one for **Emergency** and one for **Normal** patients. Emergency patients are always treated first.
+* **Sorting:** Includes a Bubble Sort algorithm to sort the patient list by severity (from high to low).
+
+## How to Run
+
+1.  Open the project in IntelliJ IDEA.
+2.  Go to `src/HospitalSystemTest.java`.
+3.  Run the `main` method.
+4.  The output will show the simulation steps (Registering patients, Sorting, Priority Treatment, etc.).
+
+## Author
+
+* **Name:** [ADIN SOYADIN]
+* **Student ID:** [NUMARAN]
