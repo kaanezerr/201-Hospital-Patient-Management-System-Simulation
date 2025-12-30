@@ -14,7 +14,7 @@ This project is a hospital simulation created for the **Data Structures and Algo
 
 1.  Open the project in IntelliJ IDEA.
 2.  Go to `src/HospitalSystemTest.java`.
-3.  Run the `main` method.
+3.  Run the HospitalSystemTest.java.
 4.  The output will show the simulation steps (Registering patients, Sorting, Priority Treatment, etc.).
 
 ## Author
